@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.3.6-rc2</Version>
@@ -21,15 +21,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ContentTypes" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Data" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Liquid.Abstractions" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Media.Abstractions" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-13450" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.ContentTypes" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.Data" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.Liquid.Abstractions" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.Media.Abstractions" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.0.0-rc2-16002" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-16002" />
   </ItemGroup>
 
   <ItemGroup>
